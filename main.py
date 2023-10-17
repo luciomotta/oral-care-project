@@ -4,13 +4,15 @@ import plotly.express as px
 from dashboard import montarDash
 from Modules.dados import pegar_dados
 
-# Para exeutar:
+# Para executar:
 # streamlit run main.py
-texto = "testando SSL"
+#Recarregamento autmatico== streamlit run --server.runOnSave main.py
+
+texto = "000testando SSL"
 
 df = pegar_dados()
 
-st.write("# Análise de Dados Oral Care")
+st.title("Análise de Dados Oral Care")
 st.write("Aqui você pode visualizar e analisar os dados da pesquisa Oral Care.")
 texto
 df
