@@ -6,6 +6,6 @@ def montarDash(st, df:pd.DataFrame):
              x='cidade', 
              y='idade', 
              orientation='v',
-             title='exemplooo')
+             title='pesquisa < Cidades')
     st.plotly_chart(fig)
 
